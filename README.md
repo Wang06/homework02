@@ -1,23 +1,45 @@
 
+<!doctype html>
 <html>
     <head>
-        <meta charset="utf-8">
-		<title>第一个网页</title>
-    </head>
-    <style>
-        a:hover{
-		color:red;
+	    <meta charset="utf-8">
+		<title>第二个页面</title>
+	</head>
+	<style>
+	    body{
+		    padding:0;
+		    margin:0;
 		}
-		#linkToBaidu{
-		color:blue;
+		.content{
+		    height:200px;
+			width:960px;
+			background:red;
+			margin:0 auto;
+			margin-top:20px;
+			padding:10px 0 0 0;
 		}
-		.settingColor{
-		color:green;
+		.box1{
+		    width:100px;
+			height:100px;
+			background:black;
+			margin:0 0 0 10px;
+			color:red;
+            float:left;
+		}
+		.box2{
+		    width:100px;
+			height:100px;
+			background:blue;
+			margin:0 0 0 0;
+			color:red;
+            float:left;
 		}
 	</style>
-    <body>
-	     <a href="http://www.baidu.com" id="linkToBaidu">跳转百度</a>
-		 <div class="settingColor">点我</div>
-		 <div class="settingColor">call me</div>
-    </body>
+	<body>
+	    <div class="content">
+		 
+		    <div class="box1">111</div>
+			<div class="box2">222</div>
+		</div>
+	</body>
 </html>
